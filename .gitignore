@@ -1,0 +1,22 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Pruebas
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Base de datos local (se genera en tiempo de ejecucion)
+data/*.db
+data/*.db-journal
+
+# Editores
+.vscode/
+.idea/
